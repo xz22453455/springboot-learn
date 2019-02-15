@@ -1,7 +1,7 @@
 package com.yajie.springboot.learn.service;
 
-import com.yajie.springboot.learn.model.MessageMarkDownModel;
-import com.yajie.springboot.learn.model.MessageTextModel;
+import com.yajie.springboot.learn.common.model.MessageMarkDownModel;
+import com.yajie.springboot.learn.common.model.MessageTextModel;
 
 /**
  * Created by jiangjingming on 2017/8/5.

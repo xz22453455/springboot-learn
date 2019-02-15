@@ -14,6 +14,10 @@
 
     <dependencies>
         <dependency>
+            <groupId>com.lmax</groupId>
+            <artifactId>disruptor</artifactId>
+        </dependency>
+        <dependency>
             <groupId>com.alibaba.rocketmq</groupId>
             <artifactId>rocketmq-client</artifactId>
         </dependency>

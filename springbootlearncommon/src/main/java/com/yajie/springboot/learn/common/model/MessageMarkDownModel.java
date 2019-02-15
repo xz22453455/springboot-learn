@@ -1,4 +1,4 @@
-package com.yajie.springboot.learn.model;
+package com.yajie.springboot.learn.common.model;
 
 import lombok.Data;
 

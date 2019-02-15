@@ -17,13 +17,16 @@
         <module>springbootlearndomain</module>
         <module>springbootlearnES</module>
         <module>springbootlearnweb</module>
+        <module>spring-boot-dubbo</module>
     </modules>
 
     <properties>
+        <jdk.version>1.8</jdk.version>
         <java.source.version>1.8</java.source.version>
         <java.target.version>1.8</java.target.version>
         <file.encoding>UTF-8</file.encoding>
         <spring.boot.version>1.5.1.RELEASE</spring.boot.version>
+        <disruptor.version>3.4.0</disruptor.version>
     </properties>
 
     <parent>
@@ -34,6 +37,11 @@
 
     <dependencyManagement>
         <dependencies>
+            <dependency>
+                <groupId>com.lmax</groupId>
+                <artifactId>disruptor</artifactId>
+                <version>${disruptor.version}</version>
+            </dependency>
             <dependency>
                 <groupId>groupId</groupId>
                 <artifactId>springboot-learn-core</artifactId>
